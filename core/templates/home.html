@@ -1,5 +1,44 @@
-<h1>Selamat Datang di Test Django</h1>
-<ul>
-    <li><a href="/bintang/">Soal 1: Pola Bintang X</a></li>
-    <li><a href="/report-karyawan/">Soal 2: Report HR (SQL)</a></li>
-</ul>
+<style>
+    body { 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+        margin: 0; 
+        background-color: #f4f7f6; 
+    }
+    .menu-container { 
+        background: white; 
+        padding: 40px; 
+        border-radius: 12px; 
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+        text-align: center; 
+    }
+    h1 { color: #2c3e50; margin-bottom: 30px; }
+    ul { list-style: none; padding: 0; }
+    li { margin: 15px 0; }
+    .btn-menu { 
+        display: block; 
+        padding: 12px 25px; 
+        background-color: #2980b9; 
+        color: white; 
+        text-decoration: none; 
+        border-radius: 6px; 
+        transition: 0.3s; 
+        font-weight: bold;
+    }
+    .btn-menu:hover { background-color: #1f6391; transform: translateY(-2px); }
+</style>
+
+<div class="menu-container">
+    <h1>Selamat Datang di Test Django</h1>
+    <ul>
+        <li>
+            <a href="/bintang/" class="btn-menu">Soal 1: Pola Bintang X</a>
+        </li>
+        <li>
+            <a href="/report-karyawan/" class="btn-menu">Soal 2: Report HR (SQL)</a>
+        </li>
+    </ul>
+</div>
