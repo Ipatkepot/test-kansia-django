@@ -1,0 +1,10 @@
+<a href="/"> Kembali ke Menu</a>
+<h2>Generate Pola Bintang X</h2>
+<form method="GET">
+    <input type="number" name="n" value="{{ n }}">
+    <button type="submit">Cetak</button>
+</form>
+<pre style="font-family: monospace; font-size: 20px;">
+{% for row in result %}{{ row }}
+{% endfor %}
+</pre>
